@@ -1,5 +1,5 @@
 [
-  { "rule": "foo @=>bar", "summary": "更新时间：2020-01-12T17:30:25", "enable": false },
+  { "rule": "foo @=>bar", "summary": "2020-01-12T17:30:25", "enable": false },
   { "rule": "zh[oō]ngn[aá]nh[aǎ]i @=>中南海" },
   { "rule": "b[eě]i\\s*j[iīì]ng @=>北京" },
   { "rule": "b[iì]j[iì]ng @=>毕竟" },

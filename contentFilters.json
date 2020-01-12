@@ -1,1962 +1,385 @@
 [
-  {
-    "rule": "(zh[oō]ngn[aá]nh[aǎ]i) @=>中南海",
-    "enable": true,
-    "summary": "s/zh[oō]ngn[aá]nh[aǎ]i/中南海/g"
-  },
-  {
-    "rule": "(b[eě]i\\s*j[iīì]ng) @=>北京",
-    "enable": true,
-    "summary": "s/b[eě]i\\s*j[iīì]ng/北京/g"
-  },
-  {
-    "rule": "(b[iì]j[iì]ng) @=>毕竟",
-    "enable": true,
-    "summary": "s/b[iì]j[iì]ng/毕竟/g"
-  },
-  {
-    "rule": "(ch[eé]ng\\s*r[eé]n) @=>成人",
-    "enable": true,
-    "summary": "s/ch[eé]ng\\s*r[eé]n/成人/g"
-  },
-  {
-    "rule": "(ch[oō]ngd[oò]ng) @=>冲动",
-    "enable": true,
-    "summary": "s/ch[oō]ngd[oò]ng/冲动/g"
-  },
-  {
-    "rule": "(d[ìi]f[aā]ng) @=>地方",
-    "enable": true,
-    "summary": "s/d[ìi]f[aā]ng/地方/g"
-  },
-  {
-    "rule": "(d[iì]\\s*d[uū]) @=>帝都",
-    "enable": true,
-    "summary": "s/d[iì]\\s*d[uū]/帝都/g"
-  },
-  {
-    "rule": "(d[uú]\\s*c[aá]i) @=>独裁",
-    "enable": true,
-    "summary": "s/d[uú]\\s*c[aá]i/独裁/g"
-  },
-  {
-    "rule": "(d[uú]\\s*l[iì]) @=>独立",
-    "enable": true,
-    "summary": "s/d[uú]\\s*l[iì]/独立/g"
-  },
-  {
-    "rule": "(f[aǎ]ngfo) @=>仿佛",
-    "enable": true,
-    "summary": "s/f[aǎ]ngfo/仿佛/g"
-  },
-  {
-    "rule": "(f[eè]nnu) @=>愤怒",
-    "enable": true,
-    "summary": "s/f[eè]nnu/愤怒/g"
-  },
-  {
-    "rule": "(g[aǎ]nji[aà]o) @=>感觉",
-    "enable": true,
-    "summary": "s/g[aǎ]nji[aà]o/感觉/g"
-  },
-  {
-    "rule": "(guoch[eé]n) @=>过程",
-    "enable": true,
-    "summary": "s/guoch[eé]n/过程/g"
-  },
-  {
-    "rule": "(gu[aā]nx[iì]) @=>关系",
-    "enable": true,
-    "summary": "s/gu[aā]nx[iì]/关系/g"
-  },
-  {
-    "rule": "(h[aǎ]oxi[aà]ng) @=>好像",
-    "enable": true,
-    "summary": "s/h[aǎ]oxi[aà]ng/好像/g"
-  },
-  {
-    "rule": "(j[iī]li[eè]) @=>激烈",
-    "enable": true,
-    "summary": "s/j[iī]li[eè]/激烈/g"
-  },
-  {
-    "rule": "(ji[eē]chu) @=>接触",
-    "enable": true,
-    "summary": "s/ji[eē]chu/接触/g"
-  },
-  {
-    "rule": "(j[uù]li[eè]) @=>剧烈",
-    "enable": true,
-    "summary": "s/j[uù]li[eè]/剧烈/g"
-  },
-  {
-    "rule": "(j[iī]ngy[aà]n) @=>经验",
-    "enable": true,
-    "summary": "s/j[iī]ngy[aà]n/经验/g"
-  },
-  {
-    "rule": "(j[iì]ngh[aá]ng) @=>进行",
-    "enable": true,
-    "summary": "s/j[iì]ngh[aá]ng/进行/g"
-  },
-  {
-    "rule": "(j[iì]nh[aá]ng) @=>进行",
-    "enable": true,
-    "summary": "s/j[iì]nh[aá]ng/进行/g"
-  },
-  {
-    "rule": "(j[iī]ngsh[eé]n) @=>精神",
-    "enable": true,
-    "summary": "s/j[iī]ngsh[eé]n/精神/g"
-  },
-  {
-    "rule": "(k[eě]n[eé]ng) @=>可能",
-    "enable": true,
-    "summary": "s/k[eě]n[eé]ng/可能/g"
-  },
-  {
-    "rule": "(m[aǎ]ny[iì]) @=>满意",
-    "enable": true,
-    "summary": "s/m[aǎ]ny[iì]/满意/g"
-  },
-  {
-    "rule": "(m[aǎ]sh[aà]ng) @=>马上",
-    "enable": true,
-    "summary": "s/m[aǎ]sh[aà]ng/马上/g"
-  },
-  {
-    "rule": "(m[eé]iy[ǒo]u) @=>没有",
-    "enable": true,
-    "summary": "s/m[eé]iy[ǒo]u/没有/g"
-  },
-  {
-    "rule": "(m[ií]nzh[uǔ]) @=>民主",
-    "enable": true,
-    "summary": "s/m[ií]nzh[uǔ]/民主/g"
-  },
-  {
-    "rule": "(m[ií]ngb[aá]i) @=>明白",
-    "enable": true,
-    "summary": "s/m[ií]ngb[aá]i/明白/g"
-  },
-  {
-    "rule": "(n[eé]ngg[oò]u) @=>能够",
-    "enable": true,
-    "summary": "s/n[eé]ngg[oò]u/能够/g"
-  },
-  {
-    "rule": "(nàme) @=>那么",
-    "enable": true,
-    "summary": "s/nàme/那么/g"
-  },
-  {
-    "rule": "(p[aá]ngbi[aā]n) @=>旁边",
-    "enable": true,
-    "summary": "s/p[aá]ngbi[aā]n/旁边/g"
-  },
-  {
-    "rule": "(q[ií]gu[aà]i) @=>奇怪",
-    "enable": true,
-    "summary": "s/q[ií]gu[aà]i/奇怪/g"
-  },
-  {
-    "rule": "(q[iī]ngch[uǔ]) @=>清楚",
-    "enable": true,
-    "summary": "s/q[iī]ngch[uǔ]/清楚/g"
-  },
-  {
-    "rule": "(r[eé]n\\s*ji[aā]n) @=>人间",
-    "enable": true,
-    "summary": "s/r[eé]n\\s*ji[aā]n/人间/g"
-  },
-  {
-    "rule": "(r[oó]ngy[iì]) @=>容易",
-    "enable": true,
-    "summary": "s/r[oó]ngy[iì]/容易/g"
-  },
-  {
-    "rule": "(r[uú]gu[oǒ]) @=>如果",
-    "enable": true,
-    "summary": "s/r[uú]gu[oǒ]/如果/g"
-  },
-  {
-    "rule": "(sh[iì]ji[eè]) @=>世界",
-    "enable": true,
-    "summary": "s/sh[iì]ji[eè]/世界/g"
-  },
-  {
-    "rule": "(sh[ií]ji[aā]n) @=>时间",
-    "enable": true,
-    "summary": "s/sh[ií]ji[aā]n/时间/g"
-  },
-  {
-    "rule": "(sh[ií]me) @=>什么",
-    "enable": true,
-    "summary": "s/sh[ií]me/什么/g"
-  },
-  {
-    "rule": "(t[oō]nggu[oò]) @=>通过",
-    "enable": true,
-    "summary": "s/t[oō]nggu[oò]/通过/g"
-  },
-  {
-    "rule": "(t[uū]r[aá]n) @=>突然",
-    "enable": true,
-    "summary": "s/t[uū]r[aá]n/突然/g"
-  },
-  {
-    "rule": "(w[eē]ixi[eé]) @=>威胁",
-    "enable": true,
-    "summary": "s/w[eē]ixi[eé]/威胁/g"
-  },
-  {
-    "rule": "(w[eè]izh[iì]) @=>位置",
-    "enable": true,
-    "summary": "s/w[eè]izh[iì]/位置/g"
-  },
-  {
-    "rule": "(x[iī]\\s*z[aà]ng) @=>西藏",
-    "enable": true,
-    "summary": "s/x[iī]\\s*z[aà]ng/西藏/g"
-  },
-  {
-    "rule": "(y[iī]di[aǎ]n) @=>一点",
-    "enable": true,
-    "summary": "s/y[iī]di[aǎ]n/一点/g"
-  },
-  {
-    "rule": "(y[iī]y[aà]ng) @=>一样",
-    "enable": true,
-    "summary": "s/y[iī]y[aà]ng/一样/g"
-  },
-  {
-    "rule": "(y[iī]t[iǐ]) @=>一体",
-    "enable": true,
-    "summary": "s/y[iī]t[iǐ]/一体/g"
-  },
-  {
-    "rule": "(y[iǐ]j[iī]ng) @=>已经",
-    "enable": true,
-    "summary": "s/y[iǐ]j[iī]ng/已经/g"
-  },
-  {
-    "rule": "(z[iì]j[iǐ]) @=>自己",
-    "enable": true,
-    "summary": "s/z[iì]j[iǐ]/自己/g"
-  },
-  {
-    "rule": "(z[iì]\\s*y[oó]u) @=>自由",
-    "enable": true,
-    "summary": "s/z[iì]\\s*y[oó]u/自由/g"
-  },
-  {
-    "rule": "(zh[eè]ng\\s*f[uǔ]) @=>政府",
-    "enable": true,
-    "summary": "s/zh[eè]ng\\s*f[uǔ]/政府/g"
-  },
-  {
-    "rule": "(zh[iī]dào) @=>知道",
-    "enable": true,
-    "summary": "s/zh[iī]dào/知道/g"
-  },
-  {
-    "rule": "(zh[oō]w[eé]i) @=>周围",
-    "enable": true,
-    "summary": "s/zh[oō]w[eé]i/周围/g"
-  },
-  {
-    "rule": "(zh[oō]ng\\s*y[aā]ng) @=>中央",
-    "enable": true,
-    "summary": "s/zh[oō]ng\\s*y[aā]ng/中央/g"
-  },
-  {
-    "rule": "(chuáng) @=>床",
-    "enable": true,
-    "summary": "s/chuáng/床/g"
-  },
-  {
-    "rule": "(chéng) @=>成",
-    "enable": true,
-    "summary": "s/chéng/成/g"
-  },
-  {
-    "rule": "(zhōng) @=>中",
-    "enable": true,
-    "summary": "s/zhōng/中/g"
-  },
-  {
-    "rule": "(xiōng) @=>胸",
-    "enable": true,
-    "summary": "s/xiōng/胸/g"
-  },
-  {
-    "rule": "(jiāng) @=>江",
-    "enable": true,
-    "summary": "s/jiāng/江/g"
-  },
-  {
-    "rule": "(bāng) @=>棒",
-    "enable": true,
-    "summary": "s/bāng/棒/g"
-  },
-  {
-    "rule": "(cháo) @=>潮",
-    "enable": true,
-    "summary": "s/cháo/潮/g"
-  },
-  {
-    "rule": "(chōu) @=>抽",
-    "enable": true,
-    "summary": "s/chōu/抽/g"
-  },
-  {
-    "rule": "(chūn) @=>春",
-    "enable": true,
-    "summary": "s/chūn/春/g"
-  },
-  {
-    "rule": "(chún) @=>唇",
-    "enable": true,
-    "summary": "s/chún/唇/g"
-  },
-  {
-    "rule": "(dàng) @=>荡",
-    "enable": true,
-    "summary": "s/dàng/荡/g"
-  },
-  {
-    "rule": "(dòng) @=>洞",
-    "enable": true,
-    "summary": "s/dòng/洞/g"
-  },
-  {
-    "rule": "(jiāo) @=>交",
-    "enable": true,
-    "summary": "s/jiāo/交/g"
-  },
-  {
-    "rule": "(jiān) @=>奸",
-    "enable": true,
-    "summary": "s/jiān/奸/g"
-  },
-  {
-    "rule": "(jīng) @=>精",
-    "enable": true,
-    "summary": "s/jīng/精/g"
-  },
-  {
-    "rule": "(jǐng) @=>警",
-    "enable": true,
-    "summary": "s/jǐng/警/g"
-  },
-  {
-    "rule": "(làng) @=>浪",
-    "enable": true,
-    "summary": "s/làng/浪/g"
-  },
-  {
-    "rule": "(luàn) @=>乱",
-    "enable": true,
-    "summary": "s/luàn/乱/g"
-  },
-  {
-    "rule": "(méng) @=>蒙",
-    "enable": true,
-    "summary": "s/méng/蒙/g"
-  },
-  {
-    "rule": "(niao) @=>尿",
-    "enable": true,
-    "summary": "s/niao/尿/g"
-  },
-  {
-    "rule": "(nòng) @=>弄",
-    "enable": true,
-    "summary": "s/nòng/弄/g"
-  },
-  {
-    "rule": "(piáo) @=>嫖",
-    "enable": true,
-    "summary": "s/piáo/嫖/g"
-  },
-  {
-    "rule": "(shēn) @=>呻",
-    "enable": true,
-    "summary": "s/shēn/呻/g"
-  },
-  {
-    "rule": "(tiān) @=>舔",
-    "enable": true,
-    "summary": "s/tiān/舔/g"
-  },
-  {
-    "rule": "(tǐng) @=>挺",
-    "enable": true,
-    "summary": "s/tǐng/挺/g"
-  },
-  {
-    "rule": "(xiǎo) @=>小",
-    "enable": true,
-    "summary": "s/xiǎo/小/g"
-  },
-  {
-    "rule": "(xìng) @=>性",
-    "enable": true,
-    "summary": "s/xìng/性/g"
-  },
-  {
-    "rule": "(yāng) @=>央",
-    "enable": true,
-    "summary": "s/yāng/央/g"
-  },
-  {
-    "rule": "(báo) @=>薄",
-    "enable": true,
-    "summary": "s/báo/薄/g"
-  },
-  {
-    "rule": "(bào) @=>爆",
-    "enable": true,
-    "summary": "s/bào/爆/g"
-  },
-  {
-    "rule": "(běi) @=>北",
-    "enable": true,
-    "summary": "s/běi/北/g"
-  },
-  {
-    "rule": "(c[āà]o) @=>操",
-    "enable": true,
-    "summary": "s/c[āà]o/操/g"
-  },
-  {
-    "rule": "(cuō) @=>搓",
-    "enable": true,
-    "summary": "s/cuō/搓/g"
-  },
-  {
-    "rule": "(chā) @=>插",
-    "enable": true,
-    "summary": "s/chā/插/g"
-  },
-  {
-    "rule": "(féi) @=>肥",
-    "enable": true,
-    "summary": "s/féi/肥/g"
-  },
-  {
-    "rule": "(hòu) @=>厚",
-    "enable": true,
-    "summary": "s/hòu/厚/g"
-  },
-  {
-    "rule": "(huā) @=>花",
-    "enable": true,
-    "summary": "s/huā/花/g"
-  },
-  {
-    "rule": "(huò) @=>惑",
-    "enable": true,
-    "summary": "s/huò/惑/g"
-  },
-  {
-    "rule": "(jān) @=>奸",
-    "enable": true,
-    "summary": "s/jān/奸/g"
-  },
-  {
-    "rule": "(kào) @=>靠",
-    "enable": true,
-    "summary": "s/kào/靠/g"
-  },
-  {
-    "rule": "(hún) @=>魂",
-    "enable": true,
-    "summary": "s/hún/魂/g"
-  },
-  {
-    "rule": "(liú) @=>流",
-    "enable": true,
-    "summary": "s/liú/流/g"
-  },
-  {
-    "rule": "(luǒ) @=>裸",
-    "enable": true,
-    "summary": "s/luǒ/裸/g"
-  },
-  {
-    "rule": "(máo) @=>毛",
-    "enable": true,
-    "summary": "s/máo/毛/g"
-  },
-  {
-    "rule": "(mèi) @=>昧",
-    "enable": true,
-    "summary": "s/mèi/昧/g"
-  },
-  {
-    "rule": "(mén) @=>门",
-    "enable": true,
-    "summary": "s/mén/门/g"
-  },
-  {
-    "rule": "(mín) @=>民",
-    "enable": true,
-    "summary": "s/mín/民/g"
-  },
-  {
-    "rule": "(nǎi) @=>奶",
-    "enable": true,
-    "summary": "s/nǎi/奶/g"
-  },
-  {
-    "rule": "(nèn) @=>嫩",
-    "enable": true,
-    "summary": "s/nèn/嫩/g"
-  },
-  {
-    "rule": "(rén) @=>人",
-    "enable": true,
-    "summary": "s/rén/人/g"
-  },
-  {
-    "rule": "(róu) @=>揉",
-    "enable": true,
-    "summary": "s/róu/揉/g"
-  },
-  {
-    "rule": "(ròu) @=>肉",
-    "enable": true,
-    "summary": "s/ròu/肉/g"
-  },
-  {
-    "rule": "(sāo) @=>骚",
-    "enable": true,
-    "summary": "s/sāo/骚/g"
-  },
-  {
-    "rule": "(shā) @=>杀",
-    "enable": true,
-    "summary": "s/shā/杀/g"
-  },
-  {
-    "rule": "(shè) @=>射",
-    "enable": true,
-    "summary": "s/shè/射/g"
-  },
-  {
-    "rule": "(shì) @=>侍",
-    "enable": true,
-    "summary": "s/shì/侍/g"
-  },
-  {
-    "rule": "(tún) @=>臀",
-    "enable": true,
-    "summary": "s/tún/臀/g"
-  },
-  {
-    "rule": "(tuǐ) @=>腿",
-    "enable": true,
-    "summary": "s/tuǐ/腿/g"
-  },
-  {
-    "rule": "(wěn) @=>吻",
-    "enable": true,
-    "summary": "s/wěn/吻/g"
-  },
-  {
-    "rule": "(xùe) @=>穴",
-    "enable": true,
-    "summary": "s/xùe/穴/g"
-  },
-  {
-    "rule": "(xué) @=>穴",
-    "enable": true,
-    "summary": "s/xué/穴/g"
-  },
-  {
-    "rule": "(yào) @=>药",
-    "enable": true,
-    "summary": "s/yào/药/g"
-  },
-  {
-    "rule": "(yàn) @=>艳",
-    "enable": true,
-    "summary": "s/yàn/艳/g"
-  },
-  {
-    "rule": "(yīn) @=>阴",
-    "enable": true,
-    "summary": "s/yīn/阴/g"
-  },
-  {
-    "rule": "(yín) @=>淫",
-    "enable": true,
-    "summary": "s/yín/淫/g"
-  },
-  {
-    "rule": "(yòu) @=>诱",
-    "enable": true,
-    "summary": "s/yòu/诱/g"
-  },
-  {
-    "rule": "(zhǔ) @=>主",
-    "enable": true,
-    "summary": "s/zhǔ/主/g"
-  },
-  {
-    "rule": "(bī) @=>逼",
-    "enable": true,
-    "summary": "s/bī/逼/g"
-  },
-  {
-    "rule": "(bō) @=>波",
-    "enable": true,
-    "summary": "s/bō/波/g"
-  },
-  {
-    "rule": "(bó) @=>薄",
-    "enable": true,
-    "summary": "s/bó/薄/g"
-  },
-  {
-    "rule": "(cō) @=>抽",
-    "enable": true,
-    "summary": "s/cō/抽/g"
-  },
-  {
-    "rule": "(dà) @=>大",
-    "enable": true,
-    "summary": "s/dà/大/g"
-  },
-  {
-    "rule": "(fǎ) @=>法",
-    "enable": true,
-    "summary": "s/fǎ/法/g"
-  },
-  {
-    "rule": "(fǔ) @=>府",
-    "enable": true,
-    "summary": "s/fǔ/府/g"
-  },
-  {
-    "rule": "(fù) @=>妇",
-    "enable": true,
-    "summary": "s/fù/妇/g"
-  },
-  {
-    "rule": "(jī) @=>激",
-    "enable": true,
-    "summary": "s/jī/激/g"
-  },
-  {
-    "rule": "(jì) @=>妓",
-    "enable": true,
-    "summary": "s/jì/妓/g"
-  },
-  {
-    "rule": "(lù) @=>露",
-    "enable": true,
-    "summary": "s/lù/露/g"
-  },
-  {
-    "rule": "(mí) @=>迷",
-    "enable": true,
-    "summary": "s/mí/迷/g"
-  },
-  {
-    "rule": "(mì) @=>蜜",
-    "enable": true,
-    "summary": "s/mì/蜜/g"
-  },
-  {
-    "rule": "(mō) @=>摸",
-    "enable": true,
-    "summary": "s/mō/摸/g"
-  },
-  {
-    "rule": "(rì) @=>日",
-    "enable": true,
-    "summary": "s/rì/日/g"
-  },
-  {
-    "rule": "(rǔ) @=>乳",
-    "enable": true,
-    "summary": "s/rǔ/乳/g"
-  },
-  {
-    "rule": "(sè) @=>色",
-    "enable": true,
-    "summary": "s/sè/色/g"
-  },
-  {
-    "rule": "(sī) @=>私",
-    "enable": true,
-    "summary": "s/sī/私/g"
-  },
-  {
-    "rule": "(sǐ) @=>死",
-    "enable": true,
-    "summary": "s/sǐ/死/g"
-  },
-  {
-    "rule": "(xí) @=>习",
-    "enable": true,
-    "summary": "s/xí/习/g"
-  },
-  {
-    "rule": "(yù) @=>欲",
-    "enable": true,
-    "summary": "s/yù/欲/g"
-  },
-  {
-    "rule": "(xiangdao) @=>想到",
-    "enable": true,
-    "summary": "s/xiangdao/想到/g"
-  },
-  {
-    "rule": "(liliang) @=>力量",
-    "enable": true,
-    "summary": "s/liliang/力量/g"
-  },
-  {
-    "rule": "(shengli) @=>胜利",
-    "enable": true,
-    "summary": "s/shengli/胜利/g"
-  },
-  {
-    "rule": "(danshi) @=>但是",
-    "enable": true,
-    "summary": "s/danshi/但是/g"
-  },
-  {
-    "rule": "(shihou) @=>时候",
-    "enable": true,
-    "summary": "s/shihou/时候/g"
-  },
-  {
-    "rule": "(xiwang) @=>希望",
-    "enable": true,
-    "summary": "s/xiwang/希望/g"
-  },
-  {
-    "rule": "(youhuo) @=>诱惑",
-    "enable": true,
-    "summary": "s/youhuo/诱惑/g"
-  },
-  {
-    "rule": "(zuo'ai) @=>做爱",
-    "enable": true,
-    "summary": "s/zuo'ai/做爱/g"
-  },
-  {
-    "rule": "(zuoyou) @=>左右",
-    "enable": true,
-    "summary": "s/zuoyou/左右/g"
-  },
-  {
-    "rule": "(shuji) @=>书记",
-    "enable": true,
-    "summary": "s/shuji/书记/g"
-  },
-  {
-    "rule": "(yiyin) @=>意淫",
-    "enable": true,
-    "summary": "s/yiyin/意淫/g"
-  },
-  {
-    "rule": "(bobo) @=>波波",
-    "enable": true,
-    "summary": "s/bobo/波波/g"
-  },
-  {
-    "rule": "(momo) @=>摸摸",
-    "enable": true,
-    "summary": "s/momo/摸摸/g"
-  },
-  {
-    "rule": "([^a-z]chuang[^a-z]) @=>床",
-    "enable": true,
-    "summary": "s/[^a-z]chuang[^a-z]/床/g"
-  },
-  {
-    "rule": "([^a-z]xiong[^a-z]) @=>胸",
-    "enable": true,
-    "summary": "s/[^a-z]xiong[^a-z]/胸/g"
-  },
-  {
-    "rule": "([^a-z]bian[^a-z]) @=>变",
-    "enable": true,
-    "summary": "s/[^a-z]bian[^a-z]/变/g"
-  },
-  {
-    "rule": "([^a-z]chun[^a-z]) @=>春",
-    "enable": true,
-    "summary": "s/[^a-z]chun[^a-z]/春/g"
-  },
-  {
-    "rule": "([^a-z]dang[^a-z]) @=>党",
-    "enable": true,
-    "summary": "s/[^a-z]dang[^a-z]/党/g"
-  },
-  {
-    "rule": "([^a-z]diao[^a-z]) @=>屌",
-    "enable": true,
-    "summary": "s/[^a-z]diao[^a-z]/屌/g"
-  },
-  {
-    "rule": "([^a-z]feng[^a-z]) @=>风",
-    "enable": true,
-    "summary": "s/[^a-z]feng[^a-z]/风/g"
-  },
-  {
-    "rule": "([^a-z]lang[^a-z]) @=>浪",
-    "enable": true,
-    "summary": "s/[^a-z]lang[^a-z]/浪/g"
-  },
-  {
-    "rule": "([^a-z]jian[^a-z]) @=>贱",
-    "enable": true,
-    "summary": "s/[^a-z]jian[^a-z]/贱/g"
-  },
-  {
-    "rule": "([^a-z]jing[^a-z]) @=>精",
-    "enable": true,
-    "summary": "s/[^a-z]jing[^a-z]/精/g"
-  },
-  {
-    "rule": "([^a-z]qing[^a-z]) @=>情",
-    "enable": true,
-    "summary": "s/[^a-z]qing[^a-z]/情/g"
-  },
-  {
-    "rule": "([^a-z]quan[^a-z]) @=>全",
-    "enable": true,
-    "summary": "s/[^a-z]quan[^a-z]/全/g"
-  },
-  {
-    "rule": "([^a-z]tian[^a-z]) @=>舔",
-    "enable": true,
-    "summary": "s/[^a-z]tian[^a-z]/舔/g"
-  },
-  {
-    "rule": "([^a-z]ting[^a-z]) @=>挺",
-    "enable": true,
-    "summary": "s/[^a-z]ting[^a-z]/挺/g"
-  },
-  {
-    "rule": "([^a-z]xing[^a-z]) @=>性",
-    "enable": true,
-    "summary": "s/[^a-z]xing[^a-z]/性/g"
-  },
-  {
-    "rule": "([^a-z]cao[^a-z]) @=>操",
-    "enable": true,
-    "summary": "s/[^a-z]cao[^a-z]/操/g"
-  },
-  {
-    "rule": "([^a-z]dan[^a-z]) @=>蛋",
-    "enable": true,
-    "summary": "s/[^a-z]dan[^a-z]/蛋/g"
-  },
-  {
-    "rule": "([^a-z]huo[^a-z]) @=>惑",
-    "enable": true,
-    "summary": "s/[^a-z]huo[^a-z]/惑/g"
-  },
-  {
-    "rule": "([^a-z]hou[^a-z]) @=>厚",
-    "enable": true,
-    "summary": "s/[^a-z]hou[^a-z]/厚/g"
-  },
-  {
-    "rule": "([^a-z]hun[^a-z]) @=>魂",
-    "enable": true,
-    "summary": "s/[^a-z]hun[^a-z]/魂/g"
-  },
-  {
-    "rule": "([^a-z]jie[^a-z]) @=>劫",
-    "enable": true,
-    "summary": "s/[^a-z]jie[^a-z]/劫/g"
-  },
-  {
-    "rule": "([^a-z]kao[^a-z]) @=>靠",
-    "enable": true,
-    "summary": "s/[^a-z]kao[^a-z]/靠/g"
-  },
-  {
-    "rule": "([^a-z]liu[^a-z]) @=>流",
-    "enable": true,
-    "summary": "s/[^a-z]liu[^a-z]/流/g"
-  },
-  {
-    "rule": "([^a-z]lou[^a-z]) @=>露",
-    "enable": true,
-    "summary": "s/[^a-z]lou[^a-z]/露/g"
-  },
-  {
-    "rule": "([^a-z]luo[^a-z]) @=>裸",
-    "enable": true,
-    "summary": "s/[^a-z]luo[^a-z]/裸/g"
-  },
-  {
-    "rule": "([^a-z]lun[^a-z]) @=>伦",
-    "enable": true,
-    "summary": "s/[^a-z]lun[^a-z]/伦/g"
-  },
-  {
-    "rule": "([^a-z]mei[^a-z]) @=>魅",
-    "enable": true,
-    "summary": "s/[^a-z]mei[^a-z]/魅/g"
-  },
-  {
-    "rule": "([^a-z]nan[^a-z]) @=>男",
-    "enable": true,
-    "summary": "s/[^a-z]nan[^a-z]/男/g"
-  },
-  {
-    "rule": "([^a-z]nei[^a-z]) @=>内",
-    "enable": true,
-    "summary": "s/[^a-z]nei[^a-z]/内/g"
-  },
-  {
-    "rule": "([^a-z]nnd[^a-z]) @=>奶奶的",
-    "enable": true,
-    "summary": "s/[^a-z]nnd[^a-z]/奶奶的/g"
-  },
-  {
-    "rule": "([^a-z]ren[^a-z]) @=>人",
-    "enable": true,
-    "summary": "s/[^a-z]ren[^a-z]/人/g"
-  },
-  {
-    "rule": "([^a-z]sao[^a-z]) @=>骚",
-    "enable": true,
-    "summary": "s/[^a-z]sao[^a-z]/骚/g"
-  },
-  {
-    "rule": "([^a-z]sha[^a-z]) @=>杀",
-    "enable": true,
-    "summary": "s/[^a-z]sha[^a-z]/杀/g"
-  },
-  {
-    "rule": "([^a-z]she[^a-z]) @=>射",
-    "enable": true,
-    "summary": "s/[^a-z]she[^a-z]/射/g"
-  },
-  {
-    "rule": "([^a-z]shi[^a-z]) @=>屎",
-    "enable": true,
-    "summary": "s/[^a-z]shi[^a-z]/屎/g"
-  },
-  {
-    "rule": "([^a-z]tai[^a-z]) @=>态",
-    "enable": true,
-    "summary": "s/[^a-z]tai[^a-z]/态/g"
-  },
-  {
-    "rule": "([^a-z]tui[^a-z]) @=>腿",
-    "enable": true,
-    "summary": "s/[^a-z]tui[^a-z]/腿/g"
-  },
-  {
-    "rule": "([^a-z]xie[^a-z]) @=>亵",
-    "enable": true,
-    "summary": "s/[^a-z]xie[^a-z]/亵/g"
-  },
-  {
-    "rule": "([^a-z]yao[^a-z]) @=>药",
-    "enable": true,
-    "summary": "s/[^a-z]yao[^a-z]/药/g"
-  },
-  {
-    "rule": "([^a-z]yin[^a-z]) @=>淫",
-    "enable": true,
-    "summary": "s/[^a-z]yin[^a-z]/淫/g"
-  },
-  {
-    "rule": "([^a-z]you[^a-z]) @=>诱",
-    "enable": true,
-    "summary": "s/[^a-z]you[^a-z]/诱/g"
-  },
-  {
-    "rule": "([^a-z]bo[^a-z]) @=>波",
-    "enable": true,
-    "summary": "s/[^a-z]bo[^a-z]/波/g"
-  },
-  {
-    "rule": "([^a-z]ji[^a-z]) @=>饥",
-    "enable": true,
-    "summary": "s/[^a-z]ji[^a-z]/饥/g"
-  },
-  {
-    "rule": "([^a-z]ke[^a-z]) @=>渴",
-    "enable": true,
-    "summary": "s/[^a-z]ke[^a-z]/渴/g"
-  },
-  {
-    "rule": "([^a-z]ku[^a-z]) @=>裤",
-    "enable": true,
-    "summary": "s/[^a-z]ku[^a-z]/裤/g"
-  },
-  {
-    "rule": "([^a-z]lu[^a-z]) @=>露",
-    "enable": true,
-    "summary": "s/[^a-z]lu[^a-z]/露/g"
-  },
-  {
-    "rule": "([^a-z]mi[^a-z]) @=>迷",
-    "enable": true,
-    "summary": "s/[^a-z]mi[^a-z]/迷/g"
-  },
-  {
-    "rule": "([^a-z]mo[^a-z]) @=>摸",
-    "enable": true,
-    "summary": "s/[^a-z]mo[^a-z]/摸/g"
-  },
-  {
-    "rule": "([^a-z]nv[^a-z]) @=>女",
-    "enable": true,
-    "summary": "s/[^a-z]nv[^a-z]/女/g"
-  },
-  {
-    "rule": "([^a-z]ri[^a-z]) @=>日",
-    "enable": true,
-    "summary": "s/[^a-z]ri[^a-z]/日/g"
-  },
-  {
-    "rule": "([^a-z]se[^a-z]) @=>色",
-    "enable": true,
-    "summary": "s/[^a-z]se[^a-z]/色/g"
-  },
-  {
-    "rule": "([^a-z]si[^a-z]) @=>私",
-    "enable": true,
-    "summary": "s/[^a-z]si[^a-z]/私/g"
-  },
-  {
-    "rule": "([^a-z]wu[^a-z]) @=>抚",
-    "enable": true,
-    "summary": "s/[^a-z]wu[^a-z]/抚/g"
-  },
-  {
-    "rule": "([^a-z]xi[^a-z]) @=>习",
-    "enable": true,
-    "summary": "s/[^a-z]xi[^a-z]/习/g"
-  },
-  {
-    "rule": "([^a-z]yu[^a-z]) @=>欲",
-    "enable": true,
-    "summary": "s/[^a-z]yu[^a-z]/欲/g"
-  },
-  {
-    "rule": "(＂Ａ　ｐｉａｎ＂) @=>A片",
-    "enable": true,
-    "summary": "s/＂Ａ　ｐｉａｎ＂/A片/g"
-  },
-  {
-    "rule": "(＂ａｉ　ｙｅ＂) @=>爱液",
-    "enable": true,
-    "summary": "s/＂ａｉ　ｙｅ＂/爱液/g"
-  },
-  {
-    "rule": "(＂ｂｉａｏ　ｚｉ＂) @=>婊子",
-    "enable": true,
-    "summary": "s/＂ｂｉａｏ　ｚｉ＂/婊子/g"
-  },
-  {
-    "rule": "(＂ｂｏ　ｂｏ＂) @=>波波",
-    "enable": true,
-    "summary": "s/＂ｂｏ　ｂｏ＂/波波/g"
-  },
-  {
-    "rule": "(＂ｃｉ　ｌｕｏ＂) @=>赤裸",
-    "enable": true,
-    "summary": "s/＂ｃｉ　ｌｕｏ＂/赤裸/g"
-  },
-  {
-    "rule": "(＂ｃｈｉ　ｌｕｏ＂) @=>赤裸",
-    "enable": true,
-    "summary": "s/＂ｃｈｉ　ｌｕｏ＂/赤裸/g"
-  },
-  {
-    "rule": "(＂ｄａｎｇ　ｆｕ＂) @=>荡妇",
-    "enable": true,
-    "summary": "s/＂ｄａｎｇ　ｆｕ＂/荡妇/g"
-  },
-  {
-    "rule": "(＂ｇａｏ　ｃｈａｏ＂) @=>高潮",
-    "enable": true,
-    "summary": "s/＂ｇａｏ　ｃｈａｏ＂/高潮/g"
-  },
-  {
-    "rule": "(＂ｇａｎ　ｓｉ　ｎｉ＂) @=>干死你",
-    "enable": true,
-    "summary": "s/＂ｇａｎ　ｓｉ　ｎｉ＂/干死你/g"
-  },
-  {
-    "rule": "(＂ｊｉ　ｎｖ＂) @=>妓女",
-    "enable": true,
-    "summary": "s/＂ｊｉ　ｎｖ＂/妓女/g"
-  },
-  {
-    "rule": "(＂ｊｉａｏ　ｃｈｕａｎ＂) @=>娇喘",
-    "enable": true,
-    "summary": "s/＂ｊｉａｏ　ｃｈｕａｎ＂/娇喘/g"
-  },
-  {
-    "rule": "(＂ｊｉａｎ　ｓｈｉ＂) @=>奸尸",
-    "enable": true,
-    "summary": "s/＂ｊｉａｎ　ｓｈｉ＂/奸尸/g"
-  },
-  {
-    "rule": "(＂ｊｉａｎ　ｙｉｎ＂) @=>奸淫",
-    "enable": true,
-    "summary": "s/＂ｊｉａｎ　ｙｉｎ＂/奸淫/g"
-  },
-  {
-    "rule": "(＂ｊｉｎｇ　ｙｅ＂) @=>精液",
-    "enable": true,
-    "summary": "s/＂ｊｉｎｇ　ｙｅ＂/精液/g"
-  },
-  {
-    "rule": "(＂ｊｕ　ｒｕ＂) @=>巨乳",
-    "enable": true,
-    "summary": "s/＂ｊｕ　ｒｕ＂/巨乳/g"
-  },
-  {
-    "rule": "(＂ｋａｉ　ｂａｏ＂) @=>开苞",
-    "enable": true,
-    "summary": "s/＂ｋａｉ　ｂａｏ＂/开苞/g"
-  },
-  {
-    "rule": "(＂ｋｏｕ　ｈｕｏ＂) @=>口活",
-    "enable": true,
-    "summary": "s/＂ｋｏｕ　ｈｕｏ＂/口活/g"
-  },
-  {
-    "rule": "(＂ｋｏｕ　ｊｉａｏ＂) @=>口交",
-    "enable": true,
-    "summary": "s/＂ｋｏｕ　ｊｉａｏ＂/口交/g"
-  },
-  {
-    "rule": "(＂ｌｕａｎ　ｌｕｎ＂) @=>乱伦",
-    "enable": true,
-    "summary": "s/＂ｌｕａｎ　ｌｕｎ＂/乱伦/g"
-  },
-  {
-    "rule": "(＂ｌｕｏ　ｎｖ＂) @=>裸女",
-    "enable": true,
-    "summary": "s/＂ｌｕｏ　ｎｖ＂/裸女/g"
-  },
-  {
-    "rule": "(＂ｍａｏ　ｚｅ　ｄｏｎｇ＂) @=>毛泽东",
-    "enable": true,
-    "summary": "s/＂ｍａｏ　ｚｅ　ｄｏｎｇ＂/毛泽东/g"
-  },
-  {
-    "rule": "(＂ｍｉ　ｊｉａｎ＂) @=>迷奸",
-    "enable": true,
-    "summary": "s/＂ｍｉ　ｊｉａｎ＂/迷奸/g"
-  },
-  {
-    "rule": "(＂ｍｉ　ｙａｏ＂) @=>迷药",
-    "enable": true,
-    "summary": "s/＂ｍｉ　ｙａｏ＂/迷药/g"
-  },
-  {
-    "rule": "(＂ｎｖ　ｙｏｕ＂) @=>女友",
-    "enable": true,
-    "summary": "s/＂ｎｖ　ｙｏｕ＂/女友/g"
-  },
-  {
-    "rule": "(＂ｐｉ　ｙａｎ＂) @=>屁眼",
-    "enable": true,
-    "summary": "s/＂ｐｉ　ｙａｎ＂/屁眼/g"
-  },
-  {
-    "rule": "(＂ｐｏ　ｃｈｕ＂) @=>破处",
-    "enable": true,
-    "summary": "s/＂ｐｏ　ｃｈｕ＂/破处/g"
-  },
-  {
-    "rule": "(＂ｑｉ　ｑｕｎｅｉ　ｙｉ＂) @=>情趣内衣",
-    "enable": true,
-    "summary": "s/＂ｑｉ　ｑｕｎｅｉ　ｙｉ＂/情趣内衣/g"
-  },
-  {
-    "rule": "(＂ｑｉａｎｇ　ｊｉａｎ＂) @=>强奸",
-    "enable": true,
-    "summary": "s/＂ｑｉａｎｇ　ｊｉａｎ＂/强奸/g"
-  },
-  {
-    "rule": "(＂ｑｉａｏ　ｔｕｎ＂) @=>翘臀",
-    "enable": true,
-    "summary": "s/＂ｑｉａｏ　ｔｕｎ＂/翘臀/g"
-  },
-  {
-    "rule": "(＂ｑｉｎｇ　ｒｅｎ＂) @=>情人",
-    "enable": true,
-    "summary": "s/＂ｑｉｎｇ　ｒｅｎ＂/情人/g"
-  },
-  {
-    "rule": "(＂ｒｏｕ　ｂａｎｇ＂) @=>肉棒",
-    "enable": true,
-    "summary": "s/＂ｒｏｕ　ｂａｎｇ＂/肉棒/g"
-  },
-  {
-    "rule": "(＂ｒｕ　ｔｏｕ＂) @=>乳头",
-    "enable": true,
-    "summary": "s/＂ｒｕ　ｔｏｕ＂/乳头/g"
-  },
-  {
-    "rule": "(＂ｒｕ　ｆａｎｇ＂) @=>乳房",
-    "enable": true,
-    "summary": "s/＂ｒｕ　ｆａｎｇ＂/乳房/g"
-  },
-  {
-    "rule": "(＂ｓａｏ　ｈｕｏ＂) @=>骚货",
-    "enable": true,
-    "summary": "s/＂ｓａｏ　ｈｕｏ＂/骚货/g"
-  },
-  {
-    "rule": "(＂ｓｅ　ｑｉｎ＂) @=>色情",
-    "enable": true,
-    "summary": "s/＂ｓｅ　ｑｉｎ＂/色情/g"
-  },
-  {
-    "rule": "(＂ｓｅ　ｔｕ＂) @=>色图",
-    "enable": true,
-    "summary": "s/＂ｓｅ　ｔｕ＂/色图/g"
-  },
-  {
-    "rule": "(＂ｓｅ　ｙｕ＂) @=>色欲",
-    "enable": true,
-    "summary": "s/＂ｓｅ　ｙｕ＂/色欲/g"
-  },
-  {
-    "rule": "(＂ｓｈｅ　ｊｉｎ＂) @=>射精",
-    "enable": true,
-    "summary": "s/＂ｓｈｅ　ｊｉｎ＂/射精/g"
-  },
-  {
-    "rule": "(＂ｓｈｅｎ　ｙｉｎ＂) @=>呻吟",
-    "enable": true,
-    "summary": "s/＂ｓｈｅｎ　ｙｉｎ＂/呻吟/g"
-  },
-  {
-    "rule": "(＂ｓｈｅｎｇ　ｚｈｉ　ｑｉ＂) @=>生殖器",
-    "enable": true,
-    "summary": "s/＂ｓｈｅｎｇ　ｚｈｉ　ｑｉ＂/生殖器/g"
-  },
-  {
-    "rule": "(＂ｓｈｏｕ　ｊｉａｏ＂) @=>兽交",
-    "enable": true,
-    "summary": "s/＂ｓｈｏｕ　ｊｉａｏ＂/兽交/g"
-  },
-  {
-    "rule": "(＂ｓｈｕ　ｘｉｏｎｇ＂) @=>酥胸",
-    "enable": true,
-    "summary": "s/＂ｓｈｕ　ｘｉｏｎｇ＂/酥胸/g"
-  },
-  {
-    "rule": "(＂ｓｈｕａｎｇ　ｆｅｎｇ＂) @=>双峰",
-    "enable": true,
-    "summary": "s/＂ｓｈｕａｎｇ　ｆｅｎｇ＂/双峰/g"
-  },
-  {
-    "rule": "(＂ｓｈｕａｎｇ　ｒｕ＂) @=>双乳",
-    "enable": true,
-    "summary": "s/＂ｓｈｕａｎｇ　ｒｕ＂/双乳/g"
-  },
-  {
-    "rule": "(＂ｔａｉ　ｄｕ＂) @=>台独",
-    "enable": true,
-    "summary": "s/＂ｔａｉ　ｄｕ＂/台独/g"
-  },
-  {
-    "rule": "(＂ｘｉ　ｙｕ＂) @=>性欲",
-    "enable": true,
-    "summary": "s/＂ｘｉ　ｙｕ＂/性欲/g"
-  },
-  {
-    "rule": "(＂ｘｉ　ｎｕ＂) @=>性奴",
-    "enable": true,
-    "summary": "s/＂ｘｉ　ｎｕ＂/性奴/g"
-  },
-  {
-    "rule": "(＂ｘｉａｏ　ｊｉ　ｊｉ＂) @=>小鸡鸡",
-    "enable": true,
-    "summary": "s/＂ｘｉａｏ　ｊｉ　ｊｉ＂/小鸡鸡/g"
-  },
-  {
-    "rule": "(＂ｘｉｏｎｇ　ｚａｏ＂) @=>胸罩",
-    "enable": true,
-    "summary": "s/＂ｘｉｏｎｇ　ｚａｏ＂/胸罩/g"
-  },
-  {
-    "rule": "(＂ｙａｎｇ　ｊｕ＂) @=>阳具",
-    "enable": true,
-    "summary": "s/＂ｙａｎｇ　ｊｕ＂/阳具/g"
-  },
-  {
-    "rule": "(＂ｙｉ　ｙｅ　ｑｉｎｇ＂) @=>一夜情",
-    "enable": true,
-    "summary": "s/＂ｙｉ　ｙｅ　ｑｉｎｇ＂/一夜情/g"
-  },
-  {
-    "rule": "(＂ｙｉｎ　ｄａｏ＂) @=>阴道",
-    "enable": true,
-    "summary": "s/＂ｙｉｎ　ｄａｏ＂/阴道/g"
-  },
-  {
-    "rule": "(＂ｙｉｎ　ｙｕ＂) @=>淫欲",
-    "enable": true,
-    "summary": "s/＂ｙｉｎ　ｙｕ＂/淫欲/g"
-  },
-  {
-    "rule": "(＂ｙｕｎ　ｘｉ＂) @=>吮吸",
-    "enable": true,
-    "summary": "s/＂ｙｕｎ　ｘｉ＂/吮吸/g"
-  },
-  {
-    "rule": "(＂ｚｉ　ｗｅｉ＂) @=>自慰",
-    "enable": true,
-    "summary": "s/＂ｚｉ　ｗｅｉ＂/自慰/g"
-  },
-  {
-    "rule": "(＂ｚｈａｏ　ｊｉ＂) @=>召妓",
-    "enable": true,
-    "summary": "s/＂ｚｈａｏ　ｊｉ＂/召妓/g"
-  },
-  {
-    "rule": "(b长) @=>部长",
-    "enable": true,
-    "summary": "s/b长/部长/g"
-  },
-  {
-    "rule": "(c([经政])) @=>财\\1",
-    "enable": true,
-    "summary": "s/c([经政])/财\\1/g"
-  },
-  {
-    "rule": "(g业) @=>工业",
-    "enable": true,
-    "summary": "s/g业/工业/g"
-  },
-  {
-    "rule": "(g产) @=>共产",
-    "enable": true,
-    "summary": "s/g产/共产/g"
-  },
-  {
-    "rule": "(g命) @=>革命",
-    "enable": true,
-    "summary": "s/g命/革命/g"
-  },
-  {
-    "rule": "(j([委方队])) @=>军\\1",
-    "enable": true,
-    "summary": "s/j([委方队])/军\\1/g"
-  },
-  {
-    "rule": "(x传) @=>宣传",
-    "enable": true,
-    "summary": "s/x传/宣传/g"
-  },
-  {
-    "rule": "(z[y央]) @=>中央",
-    "enable": true,
-    "summary": "s/z[y央]/中央/g"
-  },
-  {
-    "rule": "(z委) @=>政委",
-    "enable": true,
-    "summary": "s/z委/政委/g"
-  },
-  {
-    "rule": "(zzj) @=>政治局",
-    "enable": true,
-    "summary": "s/zzj/政治局/g"
-  },
-  {
-    "rule": "(zz) @=>政治",
-    "enable": true,
-    "summary": "s/zz/政治/g"
-  },
-  {
-    "rule": "(大6) @=>大陆",
-    "enable": true,
-    "summary": "s/大6/大陆/g"
-  },
-  {
-    "rule": "(仈jiǔ) @=>八九",
-    "enable": true,
-    "summary": "s/仈jiǔ/八九/g"
-  },
-  {
-    "rule": "(鸡女) @=>妓女",
-    "enable": true,
-    "summary": "s/鸡女/妓女/g"
-  },
-  {
-    "rule": "(政洽) @=>政治",
-    "enable": true,
-    "summary": "s/政洽/政治/g"
-  },
-  {
-    "rule": "(白勺) @=>的",
-    "enable": true,
-    "summary": "s/白勺/的/g"
-  },
-  {
-    "rule": "(口亨) @=>哼",
-    "enable": true,
-    "summary": "s/口亨/哼/g"
-  },
-  {
-    "rule": "(读力) @=>独立",
-    "enable": true,
-    "summary": "s/读力/独立/g"
-  },
-  {
-    "rule": "([oO0口]阿) @=>啊",
-    "enable": true,
-    "summary": "s/[oO0口]阿/啊/g"
-  },
-  {
-    "rule": "(艹) @=>操",
-    "enable": true,
-    "summary": "s/艹/操/g"
-  },
-  {
-    "rule": "(ォ) @=>才",
-    "enable": true,
-    "summary": "s/ォ/才/g"
-  },
-  {
-    "rule": "(夕([法客意招尖芒而归势气归骑士])) @=>剑\\1",
-    "enable": true,
-    "summary": "s/夕([法客意招尖芒而归势气归骑士])/剑\\1/g"
-  },
-  {
-    "rule": "(([^夭])夭([^夭折艳])) @=>\\1天\\2",
-    "enable": true,
-    "summary": "s/([^夭])夭([^夭折艳])/\\1天\\2/g"
-  },
-  {
-    "rule": "(十([有之])\\*\\*) @=>十\\1八九",
-    "enable": true,
-    "summary": "s/十([有之])\\*\\*/十\\1八九/g"
-  },
-  {
-    "rule": "(\\*\\*玄功) @=>八九玄功",
-    "enable": true,
-    "summary": "s/\\*\\*玄功/八九玄功/g"
-  },
-  {
-    "rule": "(波ss) @=>BOSS",
-    "enable": true,
-    "summary": "s/波ss/BOSS/g"
-  },
-  {
-    "rule": "(迷ss) @=>miss",
-    "enable": true,
-    "summary": "s/迷ss/miss/g"
-  },
-  {
-    "rule": "(uu) @=>00",
-    "enable": true,
-    "summary": "s/uu/00/g"
-  },
-  {
-    "rule": "(系～～*统) @=>系统",
-    "enable": true,
-    "summary": "s/系～～*统/系统/g"
-  },
-  {
-    "rule": "(([微腾新])[＂＝]([信讯浪])) @=>\\1\\2",
-    "enable": true,
-    "summary": "s/([微腾新])[＂＝]([信讯浪])/\\1\\2/g"
-  },
-  {
-    "rule": "(‘([乱门交人仙亿刺刚势吟吸品唇女奶好射专川帝弄快性悟惑忆抽插摸操断木枪欲归毛波洞浪混激滤爆盘私穴空精缠肉胸腿色艳花蒙荡裸逼阴鸡震露霸灵韵风骚魂])’) @=>\\1",
-    "enable": true,
-    "summary": "s/‘([乱门交人仙亿刺刚势吟吸品唇女奶好射专川帝弄快性悟惑忆抽插摸操断木枪欲归毛波洞浪混激滤爆盘私穴空精缠肉胸腿色艳花蒙荡裸逼阴鸡震露霸灵韵风骚魂])’/\\1/g"
-  },
-  {
-    "rule": "(\\*\\*([岁点个万岁米点个十百千万秒分月天年人])) @=>八九\\1",
-    "enable": true,
-    "summary": "s/\\*\\*([岁点个万岁米点个十百千万秒分月天年人])/八九\\1/g"
-  },
-  {
-    "rule": "(\\*\\*([师则官残])) @=>大法\\1",
-    "enable": true,
-    "summary": "s/\\*\\*([师则官残])/大法\\1/g"
-  },
-  {
-    "rule": "(([体水回顶])\\*\\*) @=>\\1大法",
-    "enable": true,
-    "summary": "s/([体水回顶])\\*\\*/\\1大法/g"
-  },
-  {
-    "rule": "(\\*\\*([融力][合量])) @=>肉体\\1",
-    "enable": true,
-    "summary": "s/\\*\\*([融力][合量])/肉体\\1/g"
-  },
-  {
-    "rule": "(\\*\\*([部区装队方])) @=>国军\\1",
-    "enable": true,
-    "summary": "s/\\*\\*([部区装队方])/国军\\1/g"
-  },
-  {
-    "rule": "(厩) @=>北京",
-    "enable": true,
-    "summary": "s/厩/北京/g"
-  },
-  {
-    "rule": "(马北京) @=>马厩",
-    "enable": true,
-    "summary": "s/马北京/马厩/g"
-  },
-  {
-    "rule": "(洞\\*) @=>洞穴",
-    "enable": true,
-    "summary": "s/洞\\*/洞穴/g"
-  },
-  {
-    "rule": "(走\\*) @=>走光",
-    "enable": true,
-    "summary": "s/走\\*/走光/g"
-  },
-  {
-    "rule": "(\\*光) @=>春光",
-    "enable": true,
-    "summary": "s/\\*光/春光/g"
-  },
-  {
-    "rule": "(\\*\\*([作劳])) @=>操\\1",
-    "enable": true,
-    "summary": "s/\\*\\*([作劳])/操\\1/g"
-  },
-  {
-    "rule": "(\\*\\*道) @=>不厚道",
-    "enable": true,
-    "summary": "s/\\*\\*道/不厚道/g"
-  },
-  {
-    "rule": "(\\*\\*[丝丝]) @=>屌丝",
-    "enable": true,
-    "summary": "s/\\*\\*[丝丝]/屌丝/g"
-  },
-  {
-    "rule": "(\\*\\*不离十) @=>八九不离十",
-    "enable": true,
-    "summary": "s/\\*\\*不离十/八九不离十/g"
-  },
-  {
-    "rule": "(\\*\\*大革命) @=>文化大革命",
-    "enable": true,
-    "summary": "s/\\*\\*大革命/文化大革命/g"
-  },
-  {
-    "rule": "(感\\*\\*彩) @=>感情色彩",
-    "enable": true,
-    "summary": "s/感\\*\\*彩/感情色彩/g"
-  },
-  {
-    "rule": "(八荒\\*\\*) @=>八荒六合",
-    "enable": true,
-    "summary": "s/八荒\\*\\*/八荒六合/g"
-  },
-  {
-    "rule": "(\\*\\*彩) @=>六合彩",
-    "enable": true,
-    "summary": "s/\\*\\*彩/六合彩/g"
-  },
-  {
-    "rule": "(\\*\\*烦) @=>大麻烦",
-    "enable": true,
-    "summary": "s/\\*\\*烦/大麻烦/g"
-  },
-  {
-    "rule": "([余余]\\*\\*及) @=>余波波及",
-    "enable": true,
-    "summary": "s/[余余]\\*\\*及/余波波及/g"
-  },
-  {
-    "rule": "([轩轩]然大\\*) @=>轩然大波",
-    "enable": true,
-    "summary": "s/[轩轩]然大\\*/轩然大波/g"
-  },
-  {
-    "rule": "(玩家\\*\\*) @=>玩家隐私",
-    "enable": true,
-    "summary": "s/玩家\\*\\*/玩家隐私/g"
-  },
-  {
-    "rule": "(个人\\*\\*) @=>个人隐私",
-    "enable": true,
-    "summary": "s/个人\\*\\*/个人隐私/g"
-  },
-  {
-    "rule": "(赤身\\*\\*) @=>赤身裸体",
-    "enable": true,
-    "summary": "s/赤身\\*\\*/赤身裸体/g"
-  },
-  {
-    "rule": "(\\*\\*([件故])) @=>性事\\1",
-    "enable": true,
-    "summary": "s/\\*\\*([件故])/性事\\1/g"
-  },
-  {
-    "rule": "(([爹妈妈姑姨])\\*\\*) @=>\\1妈的",
-    "enable": true,
-    "summary": "s/([爹妈妈姑姨])\\*\\*/\\1妈的/g"
-  },
-  {
-    "rule": "(\\*\\*裸) @=>赤裸裸",
-    "enable": true,
-    "summary": "s/\\*\\*裸/赤裸裸/g"
-  },
-  {
-    "rule": "(一\\*\\*) @=>一波波",
-    "enable": true,
-    "summary": "s/一\\*\\*/一波波/g"
-  },
-  {
-    "rule": "(他\\*\\*) @=>他妈",
-    "enable": true,
-    "summary": "s/他\\*\\*/他妈/g"
-  },
-  {
-    "rule": "(天[灾灾]\\*\\*) @=>天灾人祸",
-    "enable": true,
-    "summary": "s/天[灾灾]\\*\\*/天灾人祸/g"
-  },
-  {
-    "rule": "(寻求\\*\\*) @=>寻求真理",
-    "enable": true,
-    "summary": "s/寻求\\*\\*/寻求真理/g"
-  },
-  {
-    "rule": "(\\*[级级]) @=>A级",
-    "enable": true,
-    "summary": "s/\\*[级级]/A级/g"
-  },
-  {
-    "rule": "(\\*子) @=>婊子",
-    "enable": true,
-    "summary": "s/\\*子/婊子/g"
-  },
-  {
-    "rule": "(_) @=>",
-    "enable": true,
-    "summary": "s/_//g"
-  },
-  {
-    "rule": "(^\\*\\*\\**$) @=>",
-    "enable": true,
-    "summary": "s/^\\*\\*\\**$//g"
-  },
-  {
-    "rule": "(\\*\\*\\**) @=>..",
-    "enable": true,
-    "summary": "s/\\*\\*\\**/../g"
-  },
-  {
-    "rule": "(\\*) @=>.",
-    "enable": true,
-    "summary": "s/\\*/./g"
-  },
-  {
-    "rule": "([‘“]) @=>「",
-    "enable": true,
-    "summary": "s/[‘“]/「/g"
-  },
-  {
-    "rule": "([’”]) @=>」",
-    "enable": true,
-    "summary": "s/[’”]/」/g"
-  },
-  {
-    "rule": "(^」) @=>「",
-    "enable": true,
-    "summary": "s/^」/「/g"
-  },
-  {
-    "rule": "(「$) @=>」",
-    "enable": true,
-    "summary": "s/「$/」/g"
-  },
-  {
-    "rule": "(　*) @=>",
-    "enable": true,
-    "summary": "s/　*//g"
-  },
-  {
-    "rule": "(~) @=>～",
-    "enable": true,
-    "summary": "s/~/～/g"
-  },
-  {
-    "rule": "(&#[0-9]{2,5};) @=>",
-    "enable": true,
-    "summary": "s/&#[0-9]{2,5};//g"
-  },
-  {
-    "rule": "(&nbsp;) @=>",
-    "enable": true,
-    "summary": "s/&nbsp;//g"
-  },
-  {
-    "rule": "(n*bsp;) @=>",
-    "enable": true,
-    "summary": "s/n*bsp;//g"
-  },
-  {
-    "rule": "(&#160;) @=>",
-    "enable": true,
-    "summary": "s/&#160;//g"
-  },
-  {
-    "rule": "(&amp;) @=>&",
-    "enable": true,
-    "summary": "s/&amp;/&/g"
-  },
-  {
-    "rule": "(&quot;) @=>「",
-    "enable": true,
-    "summary": "s/&quot;/「/g"
-  },
-  {
-    "rule": "(&middot;) @=>·",
-    "enable": true,
-    "summary": "s/&middot;/·/g"
-  },
-  {
-    "rule": "(&ldquo;) @=>「",
-    "enable": true,
-    "summary": "s/&ldquo;/「/g"
-  },
-  {
-    "rule": "(&rdquo;) @=>」",
-    "enable": true,
-    "summary": "s/&rdquo;/」/g"
-  },
-  {
-    "rule": "(&lt;) @=><",
-    "enable": true,
-    "summary": "s/&lt;/</g"
-  },
-  {
-    "rule": "(&gt;) @=>>",
-    "enable": true,
-    "summary": "s/&gt;/>/g"
-  },
-  {
-    "rule": "(<a href=.*<\\) @=>a>",
-    "enable": true,
-    "summary": "s/<a href=.*<\\/a>/g"
-  },
-  {
-    "rule": "((ps[:：])) @=>\\n\\1",
-    "enable": true,
-    "summary": "s/(ps[:：])/\\n\\1/g"
-  },
-  {
-    "rule": "(^\\s*) @=>",
-    "enable": true,
-    "summary": "s/^\\s*//g"
-  },
-  {
-    "rule": "(<![^>]*>) @=>",
-    "enable": true,
-    "summary": "s/<![^>]*>//g"
-  },
-  {
-    "rule": "([\\{｛][^}]*}) @=>",
-    "enable": true,
-    "summary": "s/[\\{｛][^}]*}//g"
-  },
-{
-    "rule": "(纯文字在线阅读) @=>",
-    "enable": true,
-    "summary": "s/纯文字在线阅读//g"
-  },
-  {
-    "rule": "(本站域名) @=>",
-    "enable": true,
-    "summary": "s/本站域名//g"
-  },
-  {
-    "rule": "(手机同步阅读请访问) @=>",
-    "enable": true,
-    "summary": "s/手机同步阅读请访问//g"
-  },
-  {
-    "rule": "(提供最快最新的小说) @=>",
-    "enable": true,
-    "summary": "s/提供最快最新的小说//g"
-  },
-  {
-    "rule": "(书海阁) @=>",
-    "enable": true,
-    "summary": "s/书海阁//g"
-  },
-  {
-    "rule": "(搜索最新更新尽在) @=>",
-    "enable": true,
-    "summary": "s/搜索最新更新尽在//g"
-  },
-  {
-    "rule": "(\\(小说.*$) @=>",
-    "enable": true,
-    "summary": "s/\\(小说.*$//g"
-  },
-  {
-    "rule": "(本文由[^首]*首发) @=>",
-    "enable": true,
-    "summary": "s/本文由[^首]*首发//g"
-  },
-  {
-    "rule": "([(（]本章免费[)）]) @=>",
-    "enable": true,
-    "summary": "s/[(（]本章免费[)）]//g"
-  },
-  {
-    "rule": "([(（]未完待续.*$) @=>",
-    "enable": true,
-    "summary": "s/[(（]未完待续.*$//g"
-  },
-  {
-    "rule": "(未完待续.*$) @=>",
-    "enable": true,
-    "summary": "s/未完待续.*$//g"
-  },
-  {
-    "rule": "([(（]作品未完.*$) @=>",
-    "enable": true,
-    "summary": "s/[(（]作品未完.*$//g"
-  },
-  {
-    "rule": "(看小说就到) @=>",
-    "enable": true,
-    "summary": "s/看小说就到//g"
-  },
-  {
-    "rule": "(飘天文学网) @=>",
-    "enable": true,
-    "summary": "s/飘天文学网//g"
-  },
-  {
-    "rule": "(起点中文网.*$) @=>",
-    "enable": true,
-    "summary": "s/起点中文网.*$//g"
-  },
-  {
-    "rule": "(无错小说网不[少跳]字) @=>",
-    "enable": true,
-    "summary": "s/无错小说网不[少跳]字//g"
-  },
-  {
-    "rule": "(最新最快章节.*$) @=>",
-    "enable": true,
-    "summary": "s/最新最快章节.*$//g"
-  },
-  {
-    "rule": "(更多全本.*$) @=>",
-    "enable": true,
-    "summary": "s/更多全本.*$//g"
-  },
-  {
-    "rule": "(欢迎广大书友光临.*$) @=>",
-    "enable": true,
-    "summary": "s/欢迎广大书友光临.*$//g"
-  },
-  {
-    "rule": "(免费电子书下载) @=>",
-    "enable": true,
-    "summary": "s/免费电子书下载//g"
-  },
-  {
-    "rule": "(78xs) @=>",
-    "enable": true,
-    "summary": "s/78xs//g"
-  },
-{
-    "rule": "([wWBOKbok\\s]{1,3}\\.[a-zA-Z0-9\\s]*\\.[comCOMnetNET\\s]{1,3}) @=>",
-    "enable": true,
-    "summary": "s/[wWBOKbok\\s]{1,3}\\.[a-zA-Z0-9\\s]*\\.[comCOMnetNET\\s]{1,3}//g"
-  },
-  {
-    "rule": "(8.9.阅.读.网) @=>",
-    "enable": true,
-    "summary": "s/8.9.阅.读.网//g"
-  },
-  {
-    "rule": "([☆]*新.思.路.中.文.网.*[☆]*) @=>",
-    "enable": true,
-    "summary": "s/[☆]*新.思.路.中.文.网.*[☆]*//g"
-  },
-  {
-    "rule": "(无.弹.窗.小.说.网) @=>",
-    "enable": true,
-    "summary": "s/无.弹.窗.小.说.网//g"
-  },
-  {
-    "rule": "(无弹窗) @=>",
-    "enable": true,
-    "summary": "s/无弹窗//g"
-  },
-  {
-    "rule": "([(（]河蟹[)）]) @=>",
-    "enable": true,
-    "summary": "s/[(（]河蟹[)）]//g"
-  },
-  {
-    "rule": "(r[0-9]+$) @=>",
-    "enable": true,
-    "summary": "s/r[0-9]+$//g"
-  },
-  {
-    "rule": "(\\[\\.]) @=>",
-    "enable": true,
-    "summary": "s/\\[\\.]//g"
-  },
-  {
-    "rule": "([【】〖〗『』＊◆●★垩齤囘冇龘悳圌]) @=>",
-    "enable": true,
-    "summary": "s/[【】〖〗『』＊◆●★垩齤囘冇龘悳圌]//g"
-  },
-  {
-    "rule": "([《「{（(][《「{(。\\.~ ]*[)」}》][)）}」》]*) @=>",
-    "enable": true,
-    "summary": "s/[《「{（(][《「{(。\\.~ ]*[)」}》][)）}」》]*//g"
-  },
-  {
-    "rule": "(^[)）、，。？！＂：;,\\-\\*]*) @=>",
-    "enable": true,
-    "summary": "s/^[)）、，。？！＂：;,\\-\\*]*//g"
-  },
-  {
-    "rule": "(([。」？！）])[\\(\\)（）\\[《、，。？！：＂…,—\\-]*$) @=>\\1",
-    "enable": true,
-    "summary": "s/([。」？！）])[\\(\\)（）\\[《、，。？！：＂…,—\\-]*$/\\1/g"
-  },
-  {
-    "rule": "(([a-zA-Z])「([a-zA-Z])) @=>\\1\\'\\2",
-    "enable": true,
-    "summary": "s/([a-zA-Z])「([a-zA-Z])/\\1\\'\\2/g"
-  },
-  {
-    "rule": "([-－—※]{2,}) @=>——",
-    "enable": true,
-    "summary": "s/[-－—※]{2,}/——/g"
-  },
-  {
-    "rule": "foo @=>bar",
-    "enable": false,
-    "summary": "demo"
-  }
+  { "rule": "zh[oō]ngn[aá]nh[aǎ]i @=>中南海" },
+  { "rule": "b[eě]i\\s*j[iīì]ng @=>北京" },
+  { "rule": "b[iì]j[iì]ng @=>毕竟" },
+  { "rule": "ch[eé]ng\\s*r[eé]n @=>成人" },
+  { "rule": "ch[oō]ngd[oò]ng @=>冲动" },
+  { "rule": "d[ìi]f[aā]ng @=>地方" },
+  { "rule": "d[iì]\\s*d[uū] @=>帝都" },
+  { "rule": "d[uú]\\s*c[aá]i @=>独裁" },
+  { "rule": "d[uú]\\s*l[iì] @=>独立" },
+  { "rule": "f[aǎ]ngfo @=>仿佛" },
+  { "rule": "f[eè]nnu @=>愤怒" },
+  { "rule": "g[aǎ]nji[aà]o @=>感觉" },
+  { "rule": "guoch[eé]n @=>过程" },
+  { "rule": "gu[aā]nx[iì] @=>关系" },
+  { "rule": "h[aǎ]oxi[aà]ng @=>好像" },
+  { "rule": "j[iī]li[eè] @=>激烈" },
+  { "rule": "ji[eē]chu @=>接触" },
+  { "rule": "j[uù]li[eè] @=>剧烈" },
+  { "rule": "j[iī]ngy[aà]n @=>经验" },
+  { "rule": "j[iì]ngh[aá]ng @=>进行" },
+  { "rule": "j[iì]nh[aá]ng @=>进行" },
+  { "rule": "j[iī]ngsh[eé]n @=>精神" },
+  { "rule": "k[eě]n[eé]ng @=>可能" },
+  { "rule": "m[aǎ]ny[iì] @=>满意" },
+  { "rule": "m[aǎ]sh[aà]ng @=>马上" },
+  { "rule": "m[eé]iy[ǒo]u @=>没有" },
+  { "rule": "m[ií]nzh[uǔ] @=>民主" },
+  { "rule": "m[ií]ngb[aá]i @=>明白" },
+  { "rule": "n[eé]ngg[oò]u @=>能够" },
+  { "rule": "nàme @=>那么" },
+  { "rule": "p[aá]ngbi[aā]n @=>旁边" },
+  { "rule": "q[ií]gu[aà]i @=>奇怪" },
+  { "rule": "q[iī]ngch[uǔ] @=>清楚" },
+  { "rule": "r[eé]n\\s*ji[aā]n @=>人间" },
+  { "rule": "r[oó]ngy[iì] @=>容易" },
+  { "rule": "r[uú]gu[oǒ] @=>如果" },
+  { "rule": "sh[iì]ji[eè] @=>世界" },
+  { "rule": "sh[ií]ji[aā]n @=>时间" },
+  { "rule": "sh[ií]me @=>什么" },
+  { "rule": "t[oō]nggu[oò] @=>通过" },
+  { "rule": "t[uū]r[aá]n @=>突然" },
+  { "rule": "w[eē]ixi[eé] @=>威胁" },
+  { "rule": "w[eè]izh[iì] @=>位置" },
+  { "rule": "x[iī]\\s*z[aà]ng @=>西藏" },
+  { "rule": "y[iī]di[aǎ]n @=>一点" },
+  { "rule": "y[iī]y[aà]ng @=>一样" },
+  { "rule": "y[iī]t[iǐ] @=>一体" },
+  { "rule": "y[iǐ]j[iī]ng @=>已经" },
+  { "rule": "z[iì]j[iǐ] @=>自己" },
+  { "rule": "z[iì]\\s*y[oó]u @=>自由" },
+  { "rule": "zh[eè]ng\\s*f[uǔ] @=>政府" },
+  { "rule": "zh[iī]dào @=>知道" },
+  { "rule": "zh[oō]w[eé]i @=>周围" },
+  { "rule": "zh[oō]ng\\s*y[aā]ng @=>中央" },
+  { "rule": "chuáng @=>床" },
+  { "rule": "chéng @=>成" },
+  { "rule": "zhōng @=>中" },
+  { "rule": "xiōng @=>胸" },
+  { "rule": "jiāng @=>江" },
+  { "rule": "bāng @=>棒" },
+  { "rule": "cháo @=>潮" },
+  { "rule": "chōu @=>抽" },
+  { "rule": "chūn @=>春" },
+  { "rule": "chún @=>唇" },
+  { "rule": "dàng @=>荡" },
+  { "rule": "dòng @=>洞" },
+  { "rule": "jiāo @=>交" },
+  { "rule": "jiān @=>奸" },
+  { "rule": "jīng @=>精" },
+  { "rule": "jǐng @=>警" },
+  { "rule": "làng @=>浪" },
+  { "rule": "luàn @=>乱" },
+  { "rule": "méng @=>蒙" },
+  { "rule": "niao @=>尿" },
+  { "rule": "nòng @=>弄" },
+  { "rule": "piáo @=>嫖" },
+  { "rule": "shēn @=>呻" },
+  { "rule": "tiān @=>舔" },
+  { "rule": "tǐng @=>挺" },
+  { "rule": "xiǎo @=>小" },
+  { "rule": "xìng @=>性" },
+  { "rule": "yāng @=>央" },
+  { "rule": "báo @=>薄" },
+  { "rule": "bào @=>爆" },
+  { "rule": "běi @=>北" },
+  { "rule": "c[āà]o @=>操" },
+  { "rule": "cuō @=>搓" },
+  { "rule": "chā @=>插" },
+  { "rule": "féi @=>肥" },
+  { "rule": "hòu @=>厚" },
+  { "rule": "huā @=>花" },
+  { "rule": "huò @=>惑" },
+  { "rule": "jān @=>奸" },
+  { "rule": "kào @=>靠" },
+  { "rule": "hún @=>魂" },
+  { "rule": "liú @=>流" },
+  { "rule": "luǒ @=>裸" },
+  { "rule": "máo @=>毛" },
+  { "rule": "mèi @=>昧" },
+  { "rule": "mén @=>门" },
+  { "rule": "mín @=>民" },
+  { "rule": "nǎi @=>奶" },
+  { "rule": "nèn @=>嫩" },
+  { "rule": "rén @=>人" },
+  { "rule": "róu @=>揉" },
+  { "rule": "ròu @=>肉" },
+  { "rule": "sāo @=>骚" },
+  { "rule": "shā @=>杀" },
+  { "rule": "shè @=>射" },
+  { "rule": "shì @=>侍" },
+  { "rule": "tún @=>臀" },
+  { "rule": "tuǐ @=>腿" },
+  { "rule": "wěn @=>吻" },
+  { "rule": "xùe @=>穴" },
+  { "rule": "xué @=>穴" },
+  { "rule": "yào @=>药" },
+  { "rule": "yàn @=>艳" },
+  { "rule": "yīn @=>阴" },
+  { "rule": "yín @=>淫" },
+  { "rule": "yòu @=>诱" },
+  { "rule": "zhǔ @=>主" },
+  { "rule": "bī @=>逼" },
+  { "rule": "bō @=>波" },
+  { "rule": "bó @=>薄" },
+  { "rule": "cō @=>抽" },
+  { "rule": "dà @=>大" },
+  { "rule": "fǎ @=>法" },
+  { "rule": "fǔ @=>府" },
+  { "rule": "fù @=>妇" },
+  { "rule": "jī @=>激" },
+  { "rule": "jì @=>妓" },
+  { "rule": "lù @=>露" },
+  { "rule": "mí @=>迷" },
+  { "rule": "mì @=>蜜" },
+  { "rule": "mō @=>摸" },
+  { "rule": "rì @=>日" },
+  { "rule": "rǔ @=>乳" },
+  { "rule": "sè @=>色" },
+  { "rule": "sī @=>私" },
+  { "rule": "sǐ @=>死" },
+  { "rule": "xí @=>习" },
+  { "rule": "yù @=>欲" },
+  { "rule": "xiangdao @=>想到" },
+  { "rule": "liliang @=>力量" },
+  { "rule": "shengli @=>胜利" },
+  { "rule": "danshi @=>但是" },
+  { "rule": "shihou @=>时候" },
+  { "rule": "xiwang @=>希望" },
+  { "rule": "youhuo @=>诱惑" },
+  { "rule": "zuo'ai @=>做爱" },
+  { "rule": "zuoyou @=>左右" },
+  { "rule": "shuji @=>书记" },
+  { "rule": "yiyin @=>意淫" },
+  { "rule": "bobo @=>波波" },
+  { "rule": "momo @=>摸摸" },
+  { "rule": "[^a-z]chuang[^a-z] @=>床" },
+  { "rule": "[^a-z]xiong[^a-z] @=>胸" },
+  { "rule": "[^a-z]bian[^a-z] @=>变" },
+  { "rule": "[^a-z]chun[^a-z] @=>春" },
+  { "rule": "[^a-z]dang[^a-z] @=>党" },
+  { "rule": "[^a-z]diao[^a-z] @=>屌" },
+  { "rule": "[^a-z]feng[^a-z] @=>风" },
+  { "rule": "[^a-z]lang[^a-z] @=>浪" },
+  { "rule": "[^a-z]jian[^a-z] @=>贱" },
+  { "rule": "[^a-z]jing[^a-z] @=>精" },
+  { "rule": "[^a-z]qing[^a-z] @=>情" },
+  { "rule": "[^a-z]quan[^a-z] @=>全" },
+  { "rule": "[^a-z]tian[^a-z] @=>舔" },
+  { "rule": "[^a-z]ting[^a-z] @=>挺" },
+  { "rule": "[^a-z]xing[^a-z] @=>性" },
+  { "rule": "[^a-z]cao[^a-z] @=>操" },
+  { "rule": "[^a-z]dan[^a-z] @=>蛋" },
+  { "rule": "[^a-z]huo[^a-z] @=>惑" },
+  { "rule": "[^a-z]hou[^a-z] @=>厚" },
+  { "rule": "[^a-z]hun[^a-z] @=>魂" },
+  { "rule": "[^a-z]jie[^a-z] @=>劫" },
+  { "rule": "[^a-z]kao[^a-z] @=>靠" },
+  { "rule": "[^a-z]liu[^a-z] @=>流" },
+  { "rule": "[^a-z]lou[^a-z] @=>露" },
+  { "rule": "[^a-z]luo[^a-z] @=>裸" },
+  { "rule": "[^a-z]lun[^a-z] @=>伦" },
+  { "rule": "[^a-z]mei[^a-z] @=>魅" },
+  { "rule": "[^a-z]nan[^a-z] @=>男" },
+  { "rule": "[^a-z]nei[^a-z] @=>内" },
+  { "rule": "[^a-z]nnd[^a-z] @=>奶奶的" },
+  { "rule": "[^a-z]ren[^a-z] @=>人" },
+  { "rule": "[^a-z]sao[^a-z] @=>骚" },
+  { "rule": "[^a-z]sha[^a-z] @=>杀" },
+  { "rule": "[^a-z]she[^a-z] @=>射" },
+  { "rule": "[^a-z]shi[^a-z] @=>屎" },
+  { "rule": "[^a-z]tai[^a-z] @=>态" },
+  { "rule": "[^a-z]tui[^a-z] @=>腿" },
+  { "rule": "[^a-z]xie[^a-z] @=>亵" },
+  { "rule": "[^a-z]yao[^a-z] @=>药" },
+  { "rule": "[^a-z]yin[^a-z] @=>淫" },
+  { "rule": "[^a-z]you[^a-z] @=>诱" },
+  { "rule": "[^a-z]bo[^a-z] @=>波" },
+  { "rule": "[^a-z]ji[^a-z] @=>饥" },
+  { "rule": "[^a-z]ke[^a-z] @=>渴" },
+  { "rule": "[^a-z]ku[^a-z] @=>裤" },
+  { "rule": "[^a-z]lu[^a-z] @=>露" },
+  { "rule": "[^a-z]mi[^a-z] @=>迷" },
+  { "rule": "[^a-z]mo[^a-z] @=>摸" },
+  { "rule": "[^a-z]nv[^a-z] @=>女" },
+  { "rule": "[^a-z]ri[^a-z] @=>日" },
+  { "rule": "[^a-z]se[^a-z] @=>色" },
+  { "rule": "[^a-z]si[^a-z] @=>私" },
+  { "rule": "[^a-z]wu[^a-z] @=>抚" },
+  { "rule": "[^a-z]xi[^a-z] @=>习" },
+  { "rule": "[^a-z]yu[^a-z] @=>欲" },
+  { "rule": "＂Ａ　ｐｉａｎ＂ @=>A片" },
+  { "rule": "＂ａｉ　ｙｅ＂ @=>爱液" },
+  { "rule": "＂ｂｉａｏ　ｚｉ＂ @=>婊子" },
+  { "rule": "＂ｂｏ　ｂｏ＂ @=>波波" },
+  { "rule": "＂ｃｉ　ｌｕｏ＂ @=>赤裸" },
+  { "rule": "＂ｃｈｉ　ｌｕｏ＂ @=>赤裸" },
+  { "rule": "＂ｄａｎｇ　ｆｕ＂ @=>荡妇" },
+  { "rule": "＂ｇａｏ　ｃｈａｏ＂ @=>高潮" },
+  { "rule": "＂ｇａｎ　ｓｉ　ｎｉ＂ @=>干死你" },
+  { "rule": "＂ｊｉ　ｎｖ＂ @=>妓女" },
+  { "rule": "＂ｊｉａｏ　ｃｈｕａｎ＂ @=>娇喘" },
+  { "rule": "＂ｊｉａｎ　ｓｈｉ＂ @=>奸尸" },
+  { "rule": "＂ｊｉａｎ　ｙｉｎ＂ @=>奸淫" },
+  { "rule": "＂ｊｉｎｇ　ｙｅ＂ @=>精液" },
+  { "rule": "＂ｊｕ　ｒｕ＂ @=>巨乳" },
+  { "rule": "＂ｋａｉ　ｂａｏ＂ @=>开苞" },
+  { "rule": "＂ｋｏｕ　ｈｕｏ＂ @=>口活" },
+  { "rule": "＂ｋｏｕ　ｊｉａｏ＂ @=>口交" },
+  { "rule": "＂ｌｕａｎ　ｌｕｎ＂ @=>乱伦" },
+  { "rule": "＂ｌｕｏ　ｎｖ＂ @=>裸女" },
+  { "rule": "＂ｍａｏ　ｚｅ　ｄｏｎｇ＂ @=>毛泽东" },
+  { "rule": "＂ｍｉ　ｊｉａｎ＂ @=>迷奸" },
+  { "rule": "＂ｍｉ　ｙａｏ＂ @=>迷药" },
+  { "rule": "＂ｎｖ　ｙｏｕ＂ @=>女友" },
+  { "rule": "＂ｐｉ　ｙａｎ＂ @=>屁眼" },
+  { "rule": "＂ｐｏ　ｃｈｕ＂ @=>破处" },
+  { "rule": "＂ｑｉ　ｑｕｎｅｉ　ｙｉ＂ @=>情趣内衣" },
+  { "rule": "＂ｑｉａｎｇ　ｊｉａｎ＂ @=>强奸" },
+  { "rule": "＂ｑｉａｏ　ｔｕｎ＂ @=>翘臀" },
+  { "rule": "＂ｑｉｎｇ　ｒｅｎ＂ @=>情人" },
+  { "rule": "＂ｒｏｕ　ｂａｎｇ＂ @=>肉棒" },
+  { "rule": "＂ｒｕ　ｔｏｕ＂ @=>乳头" },
+  { "rule": "＂ｒｕ　ｆａｎｇ＂ @=>乳房" },
+  { "rule": "＂ｓａｏ　ｈｕｏ＂ @=>骚货" },
+  { "rule": "＂ｓｅ　ｑｉｎ＂ @=>色情" },
+  { "rule": "＂ｓｅ　ｔｕ＂ @=>色图" },
+  { "rule": "＂ｓｅ　ｙｕ＂ @=>色欲" },
+  { "rule": "＂ｓｈｅ　ｊｉｎ＂ @=>射精" },
+  { "rule": "＂ｓｈｅｎ　ｙｉｎ＂ @=>呻吟" },
+  { "rule": "＂ｓｈｅｎｇ　ｚｈｉ　ｑｉ＂ @=>生殖器" },
+  { "rule": "＂ｓｈｏｕ　ｊｉａｏ＂ @=>兽交" },
+  { "rule": "＂ｓｈｕ　ｘｉｏｎｇ＂ @=>酥胸" },
+  { "rule": "＂ｓｈｕａｎｇ　ｆｅｎｇ＂ @=>双峰" },
+  { "rule": "＂ｓｈｕａｎｇ　ｒｕ＂ @=>双乳" },
+  { "rule": "＂ｔａｉ　ｄｕ＂ @=>台独" },
+  { "rule": "＂ｘｉ　ｙｕ＂ @=>性欲" },
+  { "rule": "＂ｘｉ　ｎｕ＂ @=>性奴" },
+  { "rule": "＂ｘｉａｏ　ｊｉ　ｊｉ＂ @=>小鸡鸡" },
+  { "rule": "＂ｘｉｏｎｇ　ｚａｏ＂ @=>胸罩" },
+  { "rule": "＂ｙａｎｇ　ｊｕ＂ @=>阳具" },
+  { "rule": "＂ｙｉ　ｙｅ　ｑｉｎｇ＂ @=>一夜情" },
+  { "rule": "＂ｙｉｎ　ｄａｏ＂ @=>阴道" },
+  { "rule": "＂ｙｉｎ　ｙｕ＂ @=>淫欲" },
+  { "rule": "＂ｙｕｎ　ｘｉ＂ @=>吮吸" },
+  { "rule": "＂ｚｉ　ｗｅｉ＂ @=>自慰" },
+  { "rule": "＂ｚｈａｏ　ｊｉ＂ @=>召妓" },
+  { "rule": "b长 @=>部长" },
+  { "rule": "c(?=[经政]) @=>财" },
+  { "rule": "g业 @=>工业" },
+  { "rule": "g产 @=>共产" },
+  { "rule": "g命 @=>革命" },
+  { "rule": "j(?=[委方队]) @=>军" },
+  { "rule": "x传 @=>宣传" },
+  { "rule": "z[y央] @=>中央" },
+  { "rule": "z委 @=>政委" },
+  { "rule": "zzj @=>政治局" },
+  { "rule": "zz @=>政治" },
+  { "rule": "政zhi @=>政治" },
+  { "rule": "大6 @=>大陆" },
+  { "rule": "仈jiǔ @=>八九" },
+  { "rule": "鸡女 @=>妓女" },
+  { "rule": "政洽 @=>政治" },
+  { "rule": "白勺 @=>的" },
+  { "rule": "口亨 @=>哼" },
+  { "rule": "读力 @=>独立" },
+  { "rule": "[oO0口]阿 @=>啊" },
+  { "rule": "艹 @=>操" },
+  { "rule": "ォ @=>才" },
+  { "rule": "夕(?=[法客意招尖芒而归势气归骑士]) @=>剑" },
+  { "rule": "(?<=[^夭])夭(?=[^夭折艳]) @=>天" },
+  { "rule": "(?=十[有之])\\*\\* @=>八九" },
+  { "rule": "\\*\\*(?=(玄功|不离十)) @=>八九" },
+  { "rule": "波ss @=>BOSS" },
+  { "rule": "迷ss @=>miss" },
+  { "rule": "uu @=>00" },
+  { "rule": "系～～*统 @=>系统" },
+  { "rule": "(?<=[微腾新])[＂＝](?=[信讯浪]) @=>" },
+  { "rule": "\\*\\*(?=[岁点个万岁米点个十百千万秒分月天年人]) @=>八九" },
+  { "rule": "\\*\\*(?=[师则官残]) @=>大法" },
+  { "rule": "(?<=[体水回顶])\\*\\* @=>大法" },
+  { "rule": "\\*\\*(?=[融力][合量]) @=>肉体" },
+  { "rule": "\\*\\*(?=[部区装队方]) @=>国军" },
+  { "rule": "(?<=[^马])厩 @=>北京" },
+  { "rule": "洞\\* @=>洞穴" },
+  { "rule": "走\\* @=>走光" },
+  { "rule": "\\*光 @=>春光" },
+  { "rule": "\\*\\*(?=[作劳]) @=>操" },
+  { "rule": "\\*\\*道 @=>不厚道" },
+  { "rule": "\\*\\*丝 @=>屌丝" },
+  { "rule": "\\*\\*大革命 @=>文化大革命" },
+  { "rule": "感\\*\\*彩 @=>感情色彩" },
+  { "rule": "八荒\\*\\* @=>八荒六合" },
+  { "rule": "\\*\\*彩 @=>六合彩" },
+  { "rule": "\\*\\*烦 @=>大麻烦" },
+  { "rule": "余\\*\\*及 @=>余波波及" },
+  { "rule": "轩然大\\* @=>轩然大波" },
+  { "rule": "(?<=(玩家|个人)\\*\\* @=>玩家隐私" },
+  { "rule": "赤身\\*\\* @=>赤身裸体" },
+  { "rule": "\\*\\*(?=[件故]) @=>性事" },
+  { "rule": "(?<=[爹妈妈姑姨])\\*\\* @=>妈的" },
+  { "rule": "\\*\\*裸 @=>赤裸裸" },
+  { "rule": "一\\*\\* @=>一波波" },
+  { "rule": "他\\*\\* @=>他妈" },
+  { "rule": "天灾\\*\\* @=>天灾人祸" },
+  { "rule": "寻求\\*\\* @=>寻求真理" },
+  { "rule": "\\*级 @=>A级" },
+  { "rule": "\\*子 @=>婊子" },
+  { "rule": "[‘“] @=>「" },
+  { "rule": "[’”] @=>」" },
+  { "rule": "^」 @=>「" },
+  { "rule": "「$ @=>」" },
+  { "rule": "　* @=>" },
+  { "rule": "~ @=>～" },
+  { "rule": "&#[0-9]{2,5}; @=>" },
+  { "rule": "&nbsp; @=>" },
+  { "rule": "n*bsp; @=>" },
+  { "rule": "&#160; @=>" },
+  { "rule": "&amp; @=>&" },
+  { "rule": "&quot; @=>「" },
+  { "rule": "&middot; @=>·" },
+  { "rule": "&ldquo; @=>「" },
+  { "rule": "&rdquo; @=>」" },
+  { "rule": "&lt; @=><" },
+  { "rule": "&gt; @=>>" },
+  { "rule": "<a href=.*<\\ @=>a>" },
+  { "rule": "^\\s* @=>" },
+  { "rule": "<![^>]*> @=>" },
+  { "rule": "[\\{｛][^}]*} @=>" },
+  { "rule": "纯文字在线阅读 @=>" },
+  { "rule": "本站域名 @=>" },
+  { "rule": "手机同步阅读请访问 @=>" },
+  { "rule": "提供最快最新的小说 @=>" },
+  { "rule": "书海阁 @=>" },
+  { "rule": "搜索最新更新尽在.*$ @=>" },
+  { "rule": "\\(小说.*$ @=>" },
+  { "rule": "本文由[^首]*首发 @=>" },
+  { "rule": "[(（]本章免费[)）] @=>" },
+  { "rule": "[(（]*未完待续.*$ @=>" },
+  { "rule": "[(（]*作品未完.*$ @=>" },
+  { "rule": "看小说就到.*$ @=>" },
+  { "rule": "起点中文网.*$ @=>" },
+  { "rule": "飘天文学网 @=>" },
+  { "rule": "无错小说网不[少跳]字 @=>" },
+  { "rule": "最新最快章节.*$ @=>" },
+  { "rule": "更多全本.*$ @=>" },
+  { "rule": "欢迎广大书友光临.*$ @=>" },
+  { "rule": "免费电子书下载 @=>" },
+  { "rule": "78xs @=>" },
+  { "rule": "[wWBOKbok\\s]{1,4}\\.[a-zA-Z0-9\\s]*\\.[comCOMnetNET\\s]{1,4} @=>" },
+  { "rule": "8.9.阅.读.网 @=>" },
+  { "rule": "[☆]*新.思.路.中.文.网.*[☆]* @=>" },
+  { "rule": "无.弹.窗.小.说.网 @=>" },
+  { "rule": "无弹窗 @=>" },
+  { "rule": "[(（]河蟹[)）] @=>" },
+  { "rule": "r[0-9]+$ @=>" },
+  { "rule": "\\[\\.] @=>" },
+  { "rule": "[【】〖〗『』＊◆●★垩齤囘冇龘悳圌] @=>" },
+  { "rule": "[《「{（(][《「{(。\\.~ ]*[)」}》][)）}」》]* @=>" },
+  { "rule": "^[)）、，。？！＂：;,\\-\\*]* @=>" },
+  { "rule": "(?<=[。」？！）])[\\(\\)（）\\[《、，。？！：＂…,—\\-]*$ @=>" },
+  { "rule": "(?<=[a-zA-Z])「(?=[a-zA-Z]) @=>'" },
+  { "rule": "[-－—※]{2,} @=>——" },
+  { "rule": "foo @=>bar", "enable": false }
 ]

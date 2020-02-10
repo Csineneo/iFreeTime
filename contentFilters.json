@@ -195,7 +195,7 @@
   { "rule": "[^a-z]xie[^a-z] @=>亵" },
   { "rule": "[^a-z]yao[^a-z] @=>药" },
   { "rule": "[^a-z]yin[^a-z] @=>淫" },
-  { "rule": "[^a-z]you[^a-z] @=>诱" },
+  { "rule": "[^a-z\s]you[^a-z\s] @=>诱" },
   { "rule": "[^a-z]bo[^a-z] @=>波" },
   { "rule": "[^a-z]ji[^a-z] @=>饥" },
   { "rule": "[^a-z]ke[^a-z] @=>渴" },
